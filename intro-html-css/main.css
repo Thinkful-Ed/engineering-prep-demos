@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Neuton', serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.summary {
+    font-size: 24px;
+}
+
+.date, .byline, .caption {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.date, .byline {
+    font-size: 16px;
+}
+
+.caption {
+    font-size: 14px;
+    color: #666666;
+}
