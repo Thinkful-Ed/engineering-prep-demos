@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Neuton', serif;
+    font-family: 'Georgia', serif;
     font-size: 20px;
     color: #333333;
 }
@@ -15,6 +15,9 @@ h1 {
 
 .summary {
     font-size: 24px;
+    line-height: 1.35;
+    margin: 0px auto 15px;
+    max-width: 600px;
 }
 
 .date, .byline, .caption {
@@ -28,4 +31,48 @@ h1 {
 .caption {
     font-size: 14px;
     color: #666666;
+    margin: -10px 40px 20px;
+}
+
+a {
+    color: #ce5353;
+}
+
+p.paragraph, .g-story-body-inner {
+    line-height: 1.6;
+    margin: 0px auto 20px;
+    max-width: 600px;
+}
+
+ul.share-tools {
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul.share-tools > li {
+    display: inline;
+}
+
+header {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.date {
+    margin-bottom: 16px;
+}
+
+.byline {
+    margin-bottom: 11px; 
+}
+
+figure.story-photo {
+    margin: 0 auto;
+    max-width: 560px;
+}
+
+img.ada-picture {
+    max-width: 100%;
+    display: inline;
+    text-align: center;
 }
