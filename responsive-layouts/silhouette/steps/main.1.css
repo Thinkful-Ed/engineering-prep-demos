@@ -1,0 +1,41 @@
+/* DEFAULT STYLING */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(29, 29, 29);
+    padding: 0 10vw;
+}
+
+.company, header, ol, .excerpts, footer {
+    padding: 5vw 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.company, header, ol, .excerpts {
+    border-bottom: 2px solid rgb(83, 83, 83);
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.asterisk, .contact, .card-title, a {
+    color: rgb(149, 211, 35);
+}
+
+footer {
+    text-align: center;
+    color: rgb(83, 83, 83);
+}
+
+.li-content {
+    color: rgb(170, 170, 170);
+}
+
+.li-title {
+    margin-top: 5px;
+    font-size: 1em;
+}
