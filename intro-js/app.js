@@ -62,11 +62,9 @@ function createList(students) {
 
 function generateHtml(students) {
   const list = createList(students);
-  console.log(list);
   const content = list.map(student => {
     return `<li class"student-name">${student}</li>`;
   }).join(' ');
-  console.log(content);
   return content;
 }
 
