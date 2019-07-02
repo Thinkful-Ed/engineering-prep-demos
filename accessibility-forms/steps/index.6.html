@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <title>Coding Journal</title>
+</head>
+
+<form>
+    <fieldset class="form-section">
+        <legend class="section-title">
+            <h2>Today's Progress</h2>
+        </legend>
+        <div class="form-group">
+            <label for="coding-hours">How many hours did you spend coding?</label>
+            <input id="coding-hours" name="coding-hours" type="number">
+        </div>
+        <div class="form-group">
+            <label for="concepts">What concepts did you practice?</label>
+            <textarea id="concepts" name="concepts"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="project">What project did you work on?</label>
+            <input id="project" name="project" type="text"></input>
+        </div>
+    </fieldset>
+
+    <fieldset class="form-section">
+        <legend class="section-title">
+            <h2>How do you feel about the progress you made today?</h2>
+        </legend>
+        <div class="form-group">
+            <input id="feeling-0" name="feeling-0" type="radio" value="high" class="feeling">
+            <label for="feeling-0">Pretty good</label>
+        </div>
+        <div class="form-group">
+            <input id="feeling-1" name="feeling-1" type="radio" value="med" class="feeling">
+            <label for="feeling-1">Meh</label>
+        </div>
+        <div class="form-group">
+            <input id="feeling-2" name="feeling-2" type="radio" value="low" class="feeling">
+            <label for="feeling-2">Pretty bad</label>
+        </div>
+    </fieldset>
+</form>
+
+</html>
