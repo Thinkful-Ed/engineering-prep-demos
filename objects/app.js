@@ -53,12 +53,17 @@ console.log(movies[0])
 console.log(movies[2].title)
 console.log(movies[5].year)
 
-const moviesByDate = movies.sort((a, b) => { return a.year - b.year });
+const moviesByDate = movies.sort((a, b) => {
+    console.log(a.year);
+    console.log(b.year);
+    console.log(a.year - b.year)
+    return a.year - b.year
+});
 
 console.log(moviesByDate)
 
 const listTitleHtml = `<h1>${movies.length} movies starring Benedict Cumberbatch</h1>`
-const movieTitlesHtml = movies.map(movie => {return `<li>${movie.title}</li>`}).join("")
+const movieTitlesHtml = movies.map(movie => { return `<li>${movie.title}</li>` }).join("")
 const pageHtml = `${listTitleHtml}<ul>${movieTitlesHtml}</ul>`
 
 console.log(pageHtml)
